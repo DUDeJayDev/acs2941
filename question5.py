@@ -9,4 +9,5 @@ def addBinary(a: str, b: str) -> str:
     #return "{}".format((bin(a_bin + b_bin)))[2:]
     return "{}".format(c).replace("0b", "") # sorry
 
-addBinary("1011", "1111")
+a = addBinary("1011", "1111")
+print(a)

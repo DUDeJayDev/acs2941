@@ -14,11 +14,11 @@ import re
 # In the fifth line, print True if has any uppercase characters. Otherwise, print False. 
 
 def string_validate(s: str):
-    print(bool(re.search('[\w]', s)))
-    print(bool(re.search('[A-Za-z]', s)))
-    print(bool(re.search('[0-9]+', s)))
-    print(bool(re.search('[a-z]', s)))
-    print(bool(re.search('[A-Z]', s)))
+    print(re.search('[\w]', s) is not None)
+    print(re.search('[A-Za-z]', s) is not None)
+    print(re.search('[0-9]+', s) is not None)
+    print(re.search('[a-z]', s) is not None)
+    print(re.search('[A-Z]', s) is not None)
 
 
 string_validate('qA2')

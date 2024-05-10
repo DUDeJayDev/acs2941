@@ -1,6 +1,5 @@
 from string import ascii_uppercase, ascii_lowercase
 
-#
 # Complete the 'caesarCipher' function below.
 #
 # The function is expected to return a STRING.
